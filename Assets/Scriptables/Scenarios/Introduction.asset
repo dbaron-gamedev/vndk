@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 394f1e5f01f88384ead0c8c1f682a86e, type: 3}
+  m_Name: Introduction
+  m_EditorClassIdentifier: 
+  script: {fileID: 4900000, guid: 91734a5066cf4094cb4ecd35bd6a2ce3, type: 3}
+  backdrop: {fileID: 6642351636272618086, guid: af52c6d8516fc0445ae174e51ce5c2fb, type: 3}
+  audioClip: {fileID: 0}
+  characters:
+  - {fileID: 11400000, guid: 0ccf81d498b5be740b003442d4c674c6, type: 2}
