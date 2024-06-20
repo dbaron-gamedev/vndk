@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78778e93e5449bd4dbc4e7ec14e8b143, type: 3}
+  m_Name: Finella
+  m_EditorClassIdentifier: 
+  characterName: Finella
+  characterPrefab: {fileID: 3867326344466459686, guid: 659e04a51e6536943bafbdf8fb4daee6, type: 3}
