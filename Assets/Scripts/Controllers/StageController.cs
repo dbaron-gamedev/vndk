@@ -12,7 +12,6 @@ namespace Controllers
     public class StageController: MonoBehaviour
     {
         // Publics
-        public List<Scenario> endings;
         public List<Scenario> scenarios;
         public Scenario CurrentScenario { private set; get; }
         public Character ActiveCharacter { private set; get; }
@@ -73,12 +72,6 @@ namespace Controllers
         {
             if (scenarios.Count <= 0)
                 Debug.LogError("No scenarios to load.");
-            
-            if (endings.Count <= 0)
-                Debug.LogError("No endings to load.");
-            
-            var randomIndex = Random.Range(0, endings.Count);
-            scenarios.Add(endings[randomIndex]);
             
             CurrentScenario = scenarios[_scenarioIndex];
         }

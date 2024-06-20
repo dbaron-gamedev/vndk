@@ -31,14 +31,9 @@ namespace UI
 
         private void Awake()
         {
-            _scenarioController = FindObjectOfType<StageController>();
+	        _scenarioController = FindFirstObjectByType<StageController>();
         }
-
-        private void Start()
-        {
-	        //audioButton.gameObject.SetActive(false);
-        }
-
+        
         private void OnEnable()
         {
             DialogueParser.OnDialogueParsed += DisplayLine;
@@ -155,7 +150,7 @@ namespace UI
 
             if (avatarSprite == null)
 			{
-				Debug.LogError("Character avatar missing!");
+				Debug.LogWarning("Character avatar missing!");
 				return;
 			}
 			
