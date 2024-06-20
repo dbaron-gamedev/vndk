@@ -1,0 +1,3 @@
+Finella;Spawn;SC;Hi, I'm Finella.;
+Finella;Move;SC;Do you want to join me on a quest?;
+Finella;Idle;SC;If yes let's get going.;
