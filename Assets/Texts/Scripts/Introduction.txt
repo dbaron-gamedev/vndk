@@ -1,0 +1,3 @@
+Elred;Spawn;ESL;Welcome to VNDK.;
+Elred;Move;SC;I'm Elred, I'm so happy to meet you.;
+Elred;Move;SL;Please let me introduce to our visual novel development kit.;
